@@ -44,7 +44,7 @@ The system consists of **one Coordinator** and **three Participant Nodes**, comm
 Ensure you have **only one file**:
 
 ```
-distributed_system.py
+script.py
 ```
 
 You may clone or copy the file into a new project directory.
@@ -67,25 +67,25 @@ You will need **four separate terminals**:
 #### Terminal 1 – Coordinator
 
 ```bash
-python distributed_system.py coordinator
+python script.py coordinator
 ```
 
 #### Terminal 2 – Node 1
 
 ```bash
-python distributed_system.py node NODE-1
+python script.py node NODE-1
 ```
 
 #### Terminal 3 – Node 2
 
 ```bash
-python distributed_system.py node NODE-2
+python script.py node NODE-2
 ```
 
 #### Terminal 4 – Node 3
 
 ```bash
-python distributed_system.py node NODE-3
+python script.py node NODE-3
 ```
 
 ---
