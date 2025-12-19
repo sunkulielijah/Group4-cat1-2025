@@ -6,7 +6,7 @@ The system consists of **one Coordinator** and **three Participant Nodes**, comm
 
 ---
 
-## 📐 System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -27,7 +27,7 @@ The system consists of **one Coordinator** and **three Participant Nodes**, comm
 
 ---
 
-## 💰 Account Distribution
+##  Account Distribution
 
 | Node   | Accounts                       |
 | ------ | ------------------------------ |
@@ -37,7 +37,7 @@ The system consists of **one Coordinator** and **three Participant Nodes**, comm
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Step 1: Download the Code
 
@@ -106,7 +106,7 @@ python distributed_system.py node NODE-3
 
 ---
 
-## 🧠 Coordinator Startup Output
+##  Coordinator Startup Output
 
 Once all nodes register successfully, you should see:
 
@@ -122,7 +122,7 @@ Waiting for nodes to register...
 
 ---
 
-## 🧪 Coordinator Command Interface
+##  Coordinator Command Interface
 
 The coordinator provides an **interactive CLI** with the following commands:
 
@@ -137,7 +137,7 @@ Commands:
 
 ---
 
-## 🎯 Features Demonstrated
+##  Features Demonstrated
 
 * Two-Phase Commit (2PC)
 * Distributed transaction coordination
@@ -148,14 +148,3 @@ Commands:
 
 ---
 
-## 📌 Notes
-
-* This project is **educational**, designed for understanding distributed commit protocols.
-* No external dependencies required (Python standard library only).
-* Ideal for **database systems**, **distributed systems**, or **concurrency control** coursework.
-
----
-
-## ✅ License
-
-Free to use for learning and academic purposes.
